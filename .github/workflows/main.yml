@@ -1,5 +1,4 @@
 name: GitHub Actions Demo
-run-name: my test
 runs-on: [push]
   jobs: 
     myjob:
