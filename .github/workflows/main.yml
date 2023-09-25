@@ -1,6 +1,6 @@
 name: GitHub Actions Demo
 run-name: my test
-on: [push]
+runs-on: [push]
   jobs: 
     myjob:
       runs-on: ubuntu-latest
