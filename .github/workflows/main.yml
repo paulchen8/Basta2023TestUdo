@@ -3,5 +3,5 @@ on: [push]
 jobs:
   myjob:
     runs-on: ubuntu-latest
-    stepy:
+    steps:
       -run: echo "here I am"
