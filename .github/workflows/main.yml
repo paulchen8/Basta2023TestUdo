@@ -4,4 +4,4 @@ jobs:
   myjob:
     runs-on: ubuntu-latest
     steps:
-      -run: echo "here I am"
+      - run: echo "here I am"
