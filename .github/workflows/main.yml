@@ -1,7 +1,7 @@
 name: GitHub Actions Demo
-runs-on: [push]
-  jobs: 
-    myjob:
-      runs-on: ubuntu-latest
-      stepy:
-        -run: echo "here I am"
+on: [push]
+jobs:
+  myjob:
+    runs-on: ubuntu-latest
+    stepy:
+      -run: echo "here I am"
