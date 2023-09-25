@@ -5,4 +5,5 @@ jobs:
     runs-on: windows-latest
     steps:
       - run: echo "here I am"
-      - run: dir /b
+      - run: dir 
+      - run set
