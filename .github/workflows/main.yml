@@ -1,5 +1,9 @@
 name: GitHub Actions Demo
   run-name: my test
     on: [commit]
-      jobs: [job1] 
-      env: USERNAME 
+      jobs: 
+        job1:
+          runs-on: ubuntu-latest
+          stepy:
+            -run: echo "here I am"
+
